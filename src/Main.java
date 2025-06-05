@@ -23,7 +23,7 @@ public class Main {
 
         //Task3
 
-        short year = 1904;
+        short year = 2021;
 
       if (year % 4 == 0 && year > 1584) {
           System.out.println(year + " является високосным.");
@@ -40,7 +40,7 @@ public class Main {
 
         //Task4
 
-        byte deliveryDistance = 70;
+        byte deliveryDistance = 95;
           if (deliveryDistance <= 20) {
               System.out.println("Потребуется дней: 1");
           } else if (deliveryDistance > 20 && deliveryDistance < 60) {
@@ -53,7 +53,7 @@ public class Main {
 
         //Task5
 
-        byte monthNumber = 6;
+        byte monthNumber = 12;
           switch (monthNumber) {
               case 1:
               case 2:
